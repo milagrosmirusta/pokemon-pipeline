@@ -12,6 +12,8 @@ Pipeline de datos end-to-end que extrae información de la PokéAPI, la transfor
 
 ## Arquitectura
 PokéAPI → Python Script → PostgreSQL → dbt → Tablas Analytics → Visualizaciones
+
+
 **Flujo de datos:**
 1. `extract_pokemon_data`: Extrae 50 pokémon de la API y los carga en `pokemon_raw`
 2. `dbt run`: Ejecuta modelos de staging y marts
@@ -39,5 +41,5 @@ PokéAPI → Python Script → PostgreSQL → dbt → Tablas Analytics → Visua
 
 1. Clonar el repositorio
 ```bash
-git clone <repo>
+git clone https://github.com/milagrosmirusta/pokemon-pipeline
 cd pokemon-pipeline
