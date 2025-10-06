@@ -23,6 +23,7 @@ dbt/target/
 dbt/dbt_packages/
 dbt/logs/
 dbt/.user.yml
+dbt/dbt_internal_packages/
 
 # Data files (opcional - decide si quieres versionar los datos)
 data/raw/*.json
