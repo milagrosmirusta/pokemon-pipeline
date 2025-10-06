@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: raw
+    database: airflow
+    schema: public
+    tables:
+      - name: pokemon_raw  
+
+models:
+  - name: stg_pokemon
+    description: "Pokemon data staged and cleaned"
